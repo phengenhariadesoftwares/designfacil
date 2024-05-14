@@ -1,0 +1,14 @@
+:root {
+    --preto: #000000;
+    --azul: #0085FF;
+    --amarelo: #FBBC05;
+    --branco: #FFFFFF;
+    --text-cinza: rgb(33,37,41,0.75);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    font-family: Inter;
+}

@@ -1,0 +1,9 @@
+
+.footer-item-link,
+.link-icons-media {
+    color: var(--text-cinza);
+}
+
+.link-icons-media > i {
+    font-size: 2rem;
+}
