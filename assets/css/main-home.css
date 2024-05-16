@@ -24,6 +24,12 @@
     background-color: #ffffff;
 }
 
+.ajust-mes-ano {
+    position: relative;
+    top: 20px;
+    left: -35px;
+}
+
 @media screen and (min-width: 0px) and (max-width: 1024px) { 
     .img-comunique {
         width: 100%;
