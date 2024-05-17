@@ -1,0 +1,64 @@
+.btn-perguntas {
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-perguntas:hover {
+    border: none;
+    outline: none;
+    color: #000;
+}
+
+.menu-planos {
+    background-color: #e7e7e7;
+    width: 270px;
+    padding: 0.4rem;
+    border-radius: 12px;
+}
+
+.menu-plano-item {
+    background-color: #e7e7e7;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 7px;
+}
+
+.ativo {
+    background-color: #ffffff;
+}
+
+.ajust-mes-ano {
+    position: relative;
+    top: 20px;
+    left: -35px;
+}
+
+.planos_title {
+    font-size: 3rem!important;
+}
+
+.btn-azul_escuro {
+    color: #ffffff;
+    background-color: var(--azul-escuro);
+}
+
+.btn-azul_escuro:hover {
+    color: #ffffff;
+    background-color: var(--azul-escuro);
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+
+    .planos_title {
+        font-size: 1.7rem!important;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+    .planos_title {
+        font-size: 2.5rem!important;
+    }
+}
