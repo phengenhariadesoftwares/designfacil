@@ -1,0 +1,13 @@
+.text-area-fale {
+    height: 170px;
+}
+
+.fale-titulo {
+    font-size: 3.5rem!important;
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    .fale-titulo {
+        font-size: 2.5rem!important;
+    }
+}
