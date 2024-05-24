@@ -1,0 +1,23 @@
+:root {
+    --preto: #000000;
+    --azul: #0085FF;
+    --amarelo: #FBBC05;
+    --branco: #FFFFFF;
+    --text-cinza: rgb(33,37,41,0.75);
+    --azul-escuro: #00417D;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: Inter;
+}
+
+h1, h2, h3, h4, p, button {
+    font-family: Inter!important;
+}
+
+a {
+    text-decoration: none;
+}
