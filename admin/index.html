@@ -16,17 +16,17 @@
 
 </head>
 <body>
-    <header class="">
+    <header class="container-fluid">
     <!-- Sidebar -->
     <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-primary">
       <div class="position-sticky">
-        <div class="text-center py-4">
+        <div class="d-lg-block d-none text-center py-4">
             <img class="" width="150" src="../assets/img/logo-design-facil.png" alt="logo facil">
         </div>
-        <div class="list-group list-group-flush mx-3 mt-4">
-          <h7 class="text-white fs-6 py-2 ps-3">Descubra</h7>
+        <div class="list-group list-group-flush mx-3 mt-5">
+          <h7 class="text-white fs-6 py-2 ps-3 mt-md-0 mt-2">Descubra</h7>
           <a
-            class="active"
+            class="list-item py-2 activo"
             href="#"
             class="list-item py-2 ripple"
             aria-current="true"
@@ -56,100 +56,20 @@
     <!-- Sidebar -->
   
     <!-- Navbar -->
-    <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
-      <!-- Container wrapper -->
-      <div class="container-fluid">
-        <!-- Toggle button -->
+    <nav id="main-navbar" class="navbar navbar-expand-lg bg-primary fixed-top px-2">
+      <div class="d-flex justify-content-between">
+        <img class="" width="60" src="../assets/img/logo-design-facil.png" alt="logo facil">
         <button data-mdb-button-init
-          class="navbar-toggler"
-          type="button"
-          data-mdb-collapse-init
-          data-mdb-target="#sidebarMenu"
-          aria-controls="sidebarMenu"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fas fa-bars"></i>
-        </button>
-  
-        <!-- Brand -->
-        <a class="navbar-brand" href="#">
-          <img
-            class="ps-2"
-            src="../assets/img/logo-design-facil.png"
-            height="25"
-            alt="Design Facil"
-            loading="lazy"
-          />
-        </a>
-  
-        <!-- Right links -->
-        <ul class="navbar-nav ms-auto d-flex flex-row">
-          <!-- Notification dropdown -->
-          <li class="nav-item dropdown">
-            <a
-              data-mdb-dropdown-init class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow"
-              href="#"
-              id="navbarDropdownMenuLink"
-              role="button"
-              data-mdb-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <i class="fas fa-bell"></i>
-              <span class="badge rounded-pill badge-notification bg-danger">1</span>
-            </a>
-            <ul
-              class="dropdown-menu dropdown-menu-end"
-              aria-labelledby="navbarDropdownMenuLink"
-            >
-              <li>
-                <a class="dropdown-item" href="#">Some news</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Another news</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </li>
-            </ul>
-          </li>
-  
-          <!-- Avatar -->
-          <li class="nav-item dropdown">
-            <a
-              data-mdb-dropdown-init class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center"
-              href="#"
-              id="navbarDropdownMenuLink"
-              role="button"
-              data-mdb-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (31).webp"
-                class="rounded-circle"
-                height="22"
-                alt="Avatar"
-                loading="lazy"
-              />
-            </a>
-            <ul
-              class="dropdown-menu dropdown-menu-end"
-              aria-labelledby="navbarDropdownMenuLink"
-            >
-              <li>
-                <a class="dropdown-item" href="#">My profile</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Settings</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Logout</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <!-- Container wrapper -->
+        class="navbar-toggler"
+        type="button"
+        data-mdb-collapse-init
+        data-mdb-target="#sidebarMenu"
+        aria-controls="sidebarMenu"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>  
+      </div>     
     </nav>
     <!-- Navbar -->
   </header>
@@ -157,7 +77,7 @@
   
   <!--Main layout-->
   <main class="bg-light">
-    <div class="d-flex flex-column ajust-mt mx-lg-5 gap-lg-5 gap-3">
+    <div class="d-flex flex-column ajust-mt mx-lg-5 gap-lg-5 gap-3 px-1 pb-5">
 
       <section class="d-flex section-cabecalho align-items-center justify-content-center">
           <h2 class="section-cabecalho_titulo fs-md-1 fs-2 fw-bold text-white text-center">
@@ -166,8 +86,8 @@
       </section>
 
       <section class="container-blog">
-          <div class="row px-0">
-            <div class="d-flex align-items-center col-md-8">
+          <div class="row px-0 mx-0">
+            <div class="d-flex align-items-center col-md-8 px-2 px-lg-0">
                 <div>
                   <button class="btn btn-primary mt-3">Tem post novo no blog</button>
                   <h2 class="text-dar fs-2 mt-3 fw-ajust">10 dicas de conteúdos para maio</h2>
@@ -177,32 +97,32 @@
                   </p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="d-flex align-items-center col-md-4 px-2 px-lg-0">
               <img class="img-blog w-100" src="../admin/assets/img/WhatsApp Image 2024-05-05 at 12.51 1.png" alt="">
             </div>
           </div>
       </section>
 
       <section class="container-novidades">
-        <div class="d-flex justify-content-between align-items-center"> 
+        <div class="d-flex justify-content-between align-items-center px-3 px-lg-0"> 
           <h2 class="h2 text-dark fs-2 fw-ajust">Novidades</h2>
           <a class="btn btn-primary" href="#">Ver todas...</a>
         </div>
-        <p class="text-muted">Tem arte nova na área, confira!</p>
-        <div class="row px-0">
-          <div class="col-md-6 col-lg-3 px-md-0">
+        <p class="text-muted pt-lg-0 pt-2 px-3 px-lg-0">Tem arte nova na área, confira!</p>
+        <div class="d-flex justify-content-between flex-wrap gap-3">
+          <div class="mx-lg-0 mx-auto">
             <img width="360" height="360" class="img-novidade" src="../admin/assets/img/indio.png">           
             <p class="text-dark fs-5 ps-2 fw-ajust">Dia do Indio</p>
           </div>
-          <div class="col-md-6 col-lg-3 px-md-0">
+          <div class="mx-lg-0 mx-auto">
             <img width="360" height="360" class="img-novidade" src="../admin/assets/img/in.png">           
             <p class="text-dark fs-5 ps-2 fw-ajust">Dia do Descobrimento</p>
           </div>
-          <div class="col-md-6 col-lg-3 px-md-0">
+          <div class="mx-lg-0 mx-auto">
             <img width="360" height="360" class="img-novidade" src="../admin/assets/img/mae.png">           
             <p class="text-dark fs-5 ps-2 fw-ajust">Dia das Mães</p>
           </div>
-          <div class="col-md-6 col-lg-3 px-md-0">
+          <div class="mx-lg-0 mx-auto">
             <img width="360" height="360" class="img-novidade" src="../admin/assets/img/tr.png">           
             <p class="text-dark fs-5 ps-2 fw-ajust">Dia do Trabalho</p>
           </div>
@@ -210,41 +130,56 @@
       </section>
 
       <section class="container-importantes">
-        <div class="d-flex justify-content-between align-items-center"> 
+        <div class="d-flex justify-content-between align-items-center px-2 px-lg-0"> 
           <h2 class="h2 text-dark fs-2 fw-ajust">Datas importantes</h2>
           <a class="btn btn-primary" href="#">Ver todas...</a>
         </div>
-        <p class="text-muted">Mês de Maio</p>
-        <div class="px-lg-0 px-2 d-flex flex-wrap justify-content-center">
-          <div class="col-md-4 col-lg-2">
+        <p class="text-muted px-2 px-lg-0">Mês de Maio</p>
+        <div class="d-flex justify-content-between flex-wrap gap-3">
+          <div class="mx-lg-0 mx-auto">
             <img width="232" height="232" class="img-novidade" src="../admin/assets/img/Image.png">           
             <p class="text-dark fs-5 ps-2 fw-ajust">Série Diversão</p>
           </div>
-          <div class="col-md-4 col-lg-2 px-md-0">
+          <div class="mx-lg-0 mx-auto">
             <img width="232" height="232" class="img-novidade" src="../admin/assets/img/Image (1).png">           
             <p class="text-dark fs-5 ps-2 fw-ajust">Bilíngue</p>
           </div>
-          <div class="col-md-4 col-lg-2 px-md-0">
+          <div class="mx-lg-0 mx-auto">
             <img width="232" height="232" class="img-novidade" src="../admin/assets/img/Image (2).png">           
             <p class="text-dark fs-5 ps-2 fw-ajust">Frases</p>
           </div>
-          <div class="col-md-4 col-lg-2 px-md-0">
+          <div class="mx-lg-0 mx-auto">
             <img width="232" height="232" class="img-novidade" src="../admin/assets/img/Image (3).png">           
             <p class="text-dark fs-5 ps-2 fw-ajust">Livro Infantil</p>
           </div>
-          <div class="col-md-4 col-lg-2 px-md-0">
+          <div class="mx-lg-0 mx-auto">
             <img width="232" height="232" class="img-novidade" src="../admin/assets/img/2 (2).png">           
             <p class="text-dark fs-5 ps-2 fw-ajust">Dia do Amigo</p>
           </div>
-          <div class="col-md-4 col-lg-2 px-md-0">
+          <div class="mx-lg-0 mx-auto">
             <img width="232" height="232" class="img-novidade" src="../admin/assets/img/2 (1).png">           
             <p class="text-dark fs-5 ps-2 fw-ajust">Dica de Filmes</p>
           </div>
         </div>
       </section>
 
-
-
+      <section class="container-calendario">
+        <div class="row px-0 mx-0">
+          <div class="d-flex align-items-center col-md-8 px-2 px-lg-0">
+              <div>
+                <button class="btn btn-primary mt-3">Calendário editorial</button>
+                <h2 class="text-dar fs-2 mt-3 fw-ajust">Confira o calendário do mês de maio</h2>
+                <p class="text-blog text-muted fs-5 mt-3">
+                  Preparamos um calendário com sugestões de postagens para o seu dia a dia, 
+                  confira agora mesmo clicando aqui.
+                </p>
+              </div>
+          </div>
+          <div class="d-flex align-items-center col-md-4 px-2 px-lg-0">
+            <img class="img-blog w-100" src="../admin/assets/img/WhatsApp Image 2024-05-05 at 12.51 2.png" alt="">
+          </div>
+        </div>
+    </section>
     </div>
   </main> 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
