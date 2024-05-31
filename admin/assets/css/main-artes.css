@@ -1,0 +1,17 @@
+.bg-primary-card {
+    background-color: #E8F4FF!important;
+}
+
+.btn-card-ajust {
+    position: absolute;
+    bottom: -10px;
+    left: 75%;
+}
+
+.text-primary-escuro {
+    color: #006BCE;
+}
+
+.btn-add-salvar {
+    width: 180.88px;
+}
